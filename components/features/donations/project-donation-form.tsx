@@ -124,6 +124,13 @@ export function ProjectDonationForm({ projectId }: Props) {
                   <span>MoMo</span>
                 </Label>
               </div>
+              <div className="flex items-center space-x-2 p-3 border rounded-lg">
+      <RadioGroupItem value="binance" id="binance" />
+      <Label htmlFor="binance" className="flex items-center space-x-2 cursor-pointer">
+        <div className="w-4 h-4 bg-yellow-400 rounded"></div>
+        <span>Binance Pay</span>
+      </Label>
+    </div>
             </RadioGroup>
           </div>
 
